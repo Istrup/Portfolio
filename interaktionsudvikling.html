@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio - Interaktionsudvikling</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+	<nav>
+		<a href="index.html"><div id="menu1">Forside</div></a>
+		<a href="interaktionsudvikling.html"><div id="menu2">Interaktionsudvikling</div></a>
+		<a href="visualiseringogdesign.html"><div id="menu3">Visualisering og design</div></a>
+		<a href="kommunikationogformidling.html"><div id="menu4">Kommunikation og formidling</div></a>
+		<a href="virksomheden.html"><div id="menu5">Virksomheden</div></a>
+		<a href="tvaerfagligt.html"><div id="menu6">Tværfagligt</div></a>
+	</nav>
+	<div id=blank></div>
+	<div id="side">
+	<aside>
+		<a href="#1">Servere</a>
+		<a href="#2">HTML</a>
+		<a href="#3">CSS</a>
+		<a href="#4">Responsive design</a>
+		<a href="#5">Versionsstryring</a>
+		<a href="#6">Frameworks</a>
+	</aside>
+	<section id="indhold">
+		<h1>Interaktionsudvikling</h1>
+		<div id="indhold2">
+			<div id="1">
+			<h2 id=h1>Servere</h2>
+			<p>En server er en computer som er forbundet til et netværk, og har til opgave at udføre forskellige processer. Der findes en række servertyper:
+			</p>
+			<h3>Fil-server</h3>
+			<p>Opbevarer filer, som kan tilgås fra en anden enhed.</p>
+			<h3>Print-server</h3>
+			<p>Modtager printjob og sender disse videre til en printer.</p>
+			<h3>Web-server</h3>
+			<p>Opbevarer en hjemmeside, og gør den tilgængelig for en bruger via HTTP-protokollen.</p>
+			<h3>FTP-server (File Transfer Protocol</h3>
+			<p>Står for at flytte filer mellem servere og klienter, eksempelvis via programmer som Filezilla.</p>
+			<h3>Mail-server</h3>
+			<p>Opbevarer og tillader brugeren at sende og modtage e-mails. </p>	
+			<h3>Database-server</h3>
+			<p>Sender og modtager data til web-servere og klienter. </p>
+			<h3>SSH-server (Secure Shell Protocol)</h3>
+			<p>Opretter en krypteret forbindelse mellem to computere.</p>
+			<h3>RDP-server (Remote Desktop)</h3>
+			<p>Giver en bruger adgang til at styre en anden computer over afstand.</p>
+			<h3>Klient</h3>
+			<p>Et program der udveksler information med en server. </p>
+			</div>
+			
+			<div id="2">
+			<h2>HTML</h2>
+			<p>HTML (HyperText Markup Language) er et opmærkningssprog til udvikling af webindhold. Det står får selve indholdet af en side, for eksempel i form af tekst og billeder, hvor CSS står for designdelen.</p>
+			
+			<p>HTML best&#xE5;r af tags, som betegner elementer eller fort&#xE6;ller om siden. Et tag er defineret ved at v&#xE6;re omsluttet af &#x3C; og &#x3E;. De fleste tags kr&#xE6;ver et end-tag, som betegnes ved &#x3C;/ og &#x3E;.</p>
+
+			<p>Til tags h&#xF8;rer ogs&#xE5; attributter, som fort&#xE6;ller noget ekstra om hvad tagget skal g&#xF8;re. Hvis et link skal defineres, skrives der &#x3C;a href=&#x201D;http://eksempel.dk&#x201D;&#x3E;, hvor href er attributten, og hjemmesiden er attributtens v&#xE6;rdi. </p>
+
+			<p>Semantiske tags er betegnelsen for tags som beskriver hvad de g&#xF8;r, s&#xE5; som &#x3C;header&#x3E; og &#x3C;article&#x3E;. Disse g&#xF8;r en hjemmeside mere s&#xF8;gemaskinevenlig. </p>
+
+			<p>Et HTML-dokument er struktureret ved at indholdet er inden for et &#x3C;html&#x3E;-tag, med undtagelse af &#x3C;!doctype html&#x3E; som kr&#xE6;ves i starten, for at fort&#xE6;lle browseren at der er tale om et HTML-dokument. </p>
+
+			<p>&#x3C;head&#x3E; indeholder alt hvad der ikke er en direkte del af indholdet p&#xE5; siden. Dette kan v&#xE6;re sidens titel, &#x3C;title&#x3E;, links til stylesheets og javascripts, samt andet metadata som sk&#xE6;rmst&#xF8;rrelse og sk&#xE6;rmst&#xF8;rrelse. </p>
+
+			<p>&#x3C;body&#x3E; omfatter indholdet p&#xE5; selve siden, og det er her st&#xF8;rstedelen af tags h&#xF8;rer til. </p>
+
+			<p>Forsiden gemmes som index.html, for at fort&#xE6;lle web-serveren hvilken side brugeren skal komme ind p&#xE5;.</p>
+
+			<p>For at tjekke om et stykke HTML-kode overholder World Wide Web Consortiums standarder, er det en fordel at benytte en <a href="validator.w3.org">validator.</a></p>
+			</div>
+		</div>
+		<div id="3">
+			<h2>CSS</h2>
+			<p>CSS (Cascading Style Sheets) er et sprog der bruges til at definere udseendet på en hjemmeside, så som farve og størrelse på elementer. CSS supplerer HTML, og kan skrives direkte i en HTML-fil, eller i en ekstern fil, som bliver henvist til.</p>
+			<p>CSS skrives ved at angive en selector, som bestemmer hvad det er der skal styles. Dette kan være et tag, men også en class eller et id. Herefter angives en decleration, som står inden for en start- og en slutakkolade. Declerations inderholder property, med en tilhørende value, som står efter et kolon. Disse bestemmer hvilken form for styling der skal foretages og hvordan. Properties adskilles via semikoloner.</p>
+			<p>Grids er en måde at layoute en side på, ved at definere rækker og koloner. Ved at bruge relative enheder så som fractions, vil elementer skalere efter skærmstørrelse, også kaldet fluid webdesign.</p>
+		</div>
+		<div id="4">
+			<h2>Responsive design</h2>
+			<p>At en side er responsiv, betyder at den kan tilpasse sig efter skærmstørrelse og opløsning. En responsiv side er fluid, og vil typisk have forskellige variationer mellem skærmstørrelser, så som elementers placering. Disse variationer bliver bestemt ved hjælp af breakpoints der følger kaskadereglen. Responsive sider er mere søgemaskinevenlige.</p>
+		</div>
+		<div id="5">
+			<h2>Versionsstyring</h2>
+			<p>Versionsstyring tillader at gå tilbage til tidligere versioner, have flere delprojekter, samt at kunne samarbejde med andre om et projekt. Software eksisterer til dette formål, i form af VCS’ (Version Control System), som er baseret på eksempelvis Git-protokollen. Blandt de mest populære af disse kan nævnes GitHub. </p>
+		</div>
+		<div id="6">
+			<h2>Frameworks</h2>
+			<p>Frameworks er en måde at lave en side på, ved hjælp af en allerede-eksisterende kodeelementer, så som menuer. Blandt frameworks kan nævnes Bootstrap, som er den mest brugte. Bootstrap indeholder en lang række komponenter af HTML, CSS og javascript. </p>
+		</div>
+	</section>
+	<button onclick="topFunction()" id="knap" title="Til toppen"><b>&#8593;</b></button>
+	<script>
+			window.onscroll = function() {scrollFunction()};
+				function scrollFunction() {
+			if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+				document.getElementById("knap").style.display = "block";
+			} else {
+				document.getElementById("knap").style.display = "none";
+			}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		
+		</script>
+</div>
+</body>
+</html>
+
+

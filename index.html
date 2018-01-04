@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio - Nikolaj Andersen</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+	<nav>
+		<a href="index.html"><div id="menu1">Forside</div></a>
+		<a href="interaktionsudvikling.html"><div id="menu2">Interaktionsudvikling</div></a>
+		<a href="visualiseringogdesign.html"><div id="menu3">Visualisering og design</div></a>
+		<a href="kommunikationogformidling.html"><div id="menu4">Kommunikation og formidling</div></a>
+		<a href="virksomheden.html"><div id="menu5">Virksomheden</div></a>
+		<a href="tvaerfagligt.html"><div id="menu6">Tværfagligt</div></a>
+	</nav>
+	<div id=blank></div>
+	<div id="side">
+	<aside>
+		<a href="#1">Velkommen</a>
+
+	</aside>
+	<section id="indhold">
+		<h1>Portfolio for Nikolaj Andersen</h1>
+		<div id="indhold1">
+			<div id="1">
+			<h2>Velkommen</h2>
+			<p>
+				Jeg har valgt at strukturere mit portfolio ved at inddele de forskellige fag på hver deres side, og have en menu i venstre side, som fører hen til de forskellige emner. Dertil er der en side med tværfaglige projekter. At emnerne var lettilgængelig på samme side, vurderede jeg at der fungerede bedst, frem for at skulle indlæse en ny side hver gang.</p>
+				<p>Jeg havde fra starten tænkt mig at kode det hele fra bunden, frem for at bruge et framework som Bootstrap. Siden indeholder dog en ”til topppen”-knap af javascript, som er bygget med hjælp fra en guide på W3Schools.</p>
+				<p>
+				I starten syntes jeg at opgaven virkede lidt uoverskuelig, men fik hurtigt et overblik over hvordan jeg ville gribe tingene an. 
+				</p>
+				<p>
+				Jeg fortryder at jeg ikke tog flere noter, men det har fået mig til at indse hvor vigtigt det kan være. 
+	
+				</p>
+				</div>
+			<div id="2"><img src="billeder/image.png" alt="billede" class="billede rund"></div>
+		</div>
+		
+		<div id="kilder">
+			<p>Kilder:</p>
+			<p>Baggrundsmønster: <a href="https://www.toptal.com/designers/subtlepatterns/dust-scratches/">Yongja Kim</a></p>
+			<p>Til toppen-knap: <a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp">W3Schools</a></p>
+		</div>
+	</section>
+	<button onclick="topFunction()" id="knap" title="Til toppen"><b>&#8593;</b></button>
+	<script>
+			window.onscroll = function() {scrollFunction()};
+				function scrollFunction() {
+			if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+				document.getElementById("knap").style.display = "block";
+			} else {
+				document.getElementById("knap").style.display = "none";
+			}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		
+		</script>
+</div>
+</body>
+</html>
+
+
